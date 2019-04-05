@@ -41,31 +41,20 @@
                 android:layout_margin="8dp"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
+                android:onClick="Team41"
+                android:text="Score"
+                android:textAppearance="?android:textAppearanceLarge" />
+            <Button
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
                 android:onClick="paints"
-                android:text="+3Points"
+                android:text="Foul"
                 android:textAppearance="?android:textAppearanceLarge" />
 
-            <Button
-                android:textColor="#000"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
-                android:onClick="points"
-                android:text="+2Points"
-                android:textAppearance="?android:textAppearanceLarge" />
-
-            <Button
-                android:textColor="#000"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
-                android:onClick="point"
-                android:text="Free Throw"
-                android:textAppearance="?android:textAppearanceLarge" />
 
         </LinearLayout>
 
@@ -96,6 +85,17 @@
                 android:textSize="60sp"
                 android:textAppearance="?android:textAppearanceLarge" />
 
+
+            <Button
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:onClick="Team42"
+                android:text="Score"
+                android:textAppearance="?android:textAppearanceLarge" />
             <Button
                 android:textColor="#000"
                 android:layout_width="match_parent"
@@ -104,30 +104,10 @@
                 android:onClick="xxx"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:text="+3Points"
+                android:text="Foul"
                 android:textAppearance="?android:textAppearanceLarge" />
 
-            <Button
-                android:textColor="#000"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
-                android:onClick="znd"
-                android:text="+2Points"
-                android:textAppearance="?android:textAppearanceLarge" />
 
-            <Button
-                android:textColor="#000"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
-                android:onClick="lst"
-                android:text="Free Throw"
-                android:textAppearance="?android:textAppearanceLarge" />
         </LinearLayout>
 
 

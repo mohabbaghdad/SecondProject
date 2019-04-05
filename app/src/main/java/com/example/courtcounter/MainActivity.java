@@ -14,36 +14,27 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void paints(View view)
-    {
-        gameScorea=gameScorea+3;
-     displayForTeamA(gameScorea);
-    }
-    public  void points(View view)
-        {
-            gameScorea=gameScorea+2;
-            displayForTeamA(gameScorea);
-        }
-    public void point(View view)
+    public void Team41(View view)
     {
         gameScorea=gameScorea+1;
         displayForTeamA(gameScorea);
     }
-    public void xxx(View view)
+    public void paints(View view)
     {
-        GameScoreb=GameScoreb+3;
-        displayForTeamB(GameScoreb);
+        gameScorea=gameScorea-1;
+     displayForTeamA(gameScorea);
     }
-    public void znd(View view)
+    public void Team42(View view)
     {
-        GameScoreb=GameScoreb+2;
-        displayForTeamB(GameScoreb);
-
-    }
-    public void lst(View view) {
         GameScoreb=GameScoreb+1;
         displayForTeamB(GameScoreb);
     }
+    public void xxx(View view)
+    {
+        GameScoreb=GameScoreb-1;
+        displayForTeamB(GameScoreb);
+    }
+
     public void clearit(View view)
     {
         gameScorea=0;
